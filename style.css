@@ -179,6 +179,91 @@ h3 {
   margin: 0 auto;
 }
 
+/*=========================== professional ===================================*/
+
+.professional .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.professional-image {
+  width: 562px;
+  height: 573px;
+  background-image: url(./img/professionals/Image.png);
+}
+
+.professional .container .text-part {
+  text-align-last: left;
+  max-width: 525px;
+  width: 100%;
+}
+
+.professional .section-title {
+  margin-bottom: 20px;
+}
+
+.professional .bold {
+  margin-bottom: 10px;
+}
+
+.professional p:first-child {
+  margin-bottom: 0px;
+}
+
+.professional p:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+.professional p {
+  margin-bottom: 30px;
+}
+
+/* ============================== product ================================== */
+.product .opitimisation-image {
+  width: 570px;
+  height: 520px;
+  background-image: url(./img/product/product.png);
+}
+
+.manegers__list__icon {
+  padding: 10px;
+  background-color: #ff9900;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.manegers__list {
+  max-width: 505px;
+  width: 100%;
+}
+
+.manegers__list__item {
+  display: flex;
+}
+
+.manegers__list p {
+  margin-left: 30px;
+  margin-bottom: 0;
+}
+
+.manegers__list__icon {
+  width: 35px;
+  height: 35px;
+}
+
+svg {
+  width: 35px;
+  height: 35px;
+}
+/*============================== opitimisation ==================================*/
+.opitimisation-image {
+  width: 562px;
+  height: 573px;
+  background-image: url(./img/marketers/marketers.png);
+}
 /*============================ footer =======================================*/
 
 .footer {
